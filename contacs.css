@@ -1,0 +1,59 @@
+.rigt_border>img:hover{
+    content: url("images/menu_home_blue.png");
+}
+
+.bred_crums{
+    border: 1px solid gray;
+    background: linear-gradient(white, rgba(194, 193, 193, 0.904));
+    padding: 10px;
+    width: 140px;
+    margin-left: 15px;
+    float: right;
+
+}
+
+.contuct_section{
+    float: right;
+    margin-top: 40px;    
+    border: 1px solid black;
+}
+
+
+.contuct_section>p>a,.contuct_section>p{
+color: gray;
+text-decoration-line: none;
+margin-bottom: 15px;
+}
+
+
+.co_title{
+border-bottom: 1px solid gray;    
+margin-left: 500px;
+}
+
+.contuct_section>h3{
+    color: gray;
+}
+
+.section_b{
+    float: right;
+    display: block;
+    border-top-right-radius: 30px;
+    margin-left: 20px;
+    width: 400px;
+    height: 447px;
+    background: linear-gradient(white, rgba(218, 216, 216, 0.904));
+    border: 1px solid rgb(230, 225, 225);
+    margin-top: 8px;
+
+}
+
+
+.clear_fix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+
+}
+
